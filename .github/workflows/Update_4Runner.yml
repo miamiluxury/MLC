@@ -2,7 +2,7 @@ name: Update_4Runner_east
 
 on:
   schedule:
-    - cron: "10 20 */2 * *"
+    - cron: "10 10 * * *"
   workflow_dispatch:
 
 permissions:
