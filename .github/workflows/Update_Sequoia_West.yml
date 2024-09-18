@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MODEL: sequoia
-      ZIPCODE: 90210
+      ZIPCODE: 84101
       DISTANCE: 500
     steps:
       - name: Clone repo
