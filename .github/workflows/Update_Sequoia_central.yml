@@ -2,7 +2,7 @@ name: Update_Sequoia_central
 
 on:
   schedule:
-    - cron: "10 14 * * *"
+    - cron: "10 16 * * *"
   workflow_dispatch:
 
 permissions:
