@@ -19,9 +19,9 @@ jobs:
     name: "Update"
     runs-on: ubuntu-latest
     env:
-      MODEL: sienna
-      ZIPCODE: ${{ vars.ZIPCODE }}
-      DISTANCE: ${{ vars.DISTANCE }}
+      MODEL: sequoia
+      ZIPCODE: 33137
+      DISTANCE: 500
     steps:
       - name: Clone repo
         uses: actions/checkout@v4
