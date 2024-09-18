@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MODEL: 4runner
-      ZIPCODE: 90210
+      ZIPCODE: 84101
       DISTANCE: 500
     steps:
       - name: Clone repo
