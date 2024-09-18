@@ -1,4 +1,4 @@
-name: Update_Sequoia
+name: Update_Sequoia_east
 
 on:
   schedule:
